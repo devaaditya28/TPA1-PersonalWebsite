@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Reset  styling */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(12, 13, 14);
+}
+
+/* Nav */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+    display: flex;
+    padding: 8px 20px;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    padding: 8px 20px;
+    font-size: 20px;
+    font-weight: 550;
+}
+
+ul li a {
+    padding: 8px 20px;
+    border-radius: 25px;
+}
+
+ul li a:hover {
+    background-color: #8FE3D9;
+    color: #fff;
+}
+
+/* Home */
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 50px;
+    margin: 15px 0 50px 0;
+}
+
+.home-image img {
+    width: 450px;
+    border-radius: 100px;
+}
+
+.home-social{
+    display: inline-block;
+    margin: 0 0 20px 20px;
+}
+
+.home-social a{
+    font-size: 20px;
+}
+
+.home-text h1 {
+    font-size: 36px;
+}
+
+.home-text span {
+    color: #8FE3D9;
+}
+
+.home-text h3 {
+    margin-bottom: 50px;
+}
+
+.home-text a {
+    font-size: 20px;
+    font-weight: 500px;
+    padding: 15px 25px;
+    background-color: #8FE3D9;
+    color: rgb(0, 0, 0);
+    border-radius: 25px;
+}
+
+.home-text a:hover {
+    color: #8FE3D9;
+    background-color: rgb(255, 255, 255);
+}
+
+/* About */
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 40px;
+    margin: 30px 0px;
+}
+
+.about-title {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.about-image img{
+    width: 600px;
+}
+
+.about-text p{
+    margin-top: 30px;
+}
+
+/* Portfolio */
+.Portofolio__subtitle{
+	margin: 15px auto;
+	text-align: center;
+}
+
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 300px;
+}
+
+.card{
+	height: 375px;
+	width: 400px;
+	padding: 30px 35px;
+	background: #8FE3D9;
+	border-radius: 20px;
+	margin: 5px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+
+.card h5{
+    border-radius: 10px;
+	font-size: 23px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.pra img{
+  box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
+  border-radius: .5rem;
+  overflow: hidden;
+  width: 250px;
+  align-content: center;
+}
+.pra p{
+	color: grey;
+	font-size: 16px;
+	line-height: 27px;
+}
+
+.card .button{
+	background-color:rgb(10, 6, 61);
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 9px 22px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+
+.card .button:hover{
+	background-color: transparent;
+	border: 2px solid rgb(92, 55, 241);
+	cursor: pointer;
+}
+
+.git {
+    margin: 20px 0px 10px 20px;
+}
+
+.git a {
+    font-size: 25px;
+}
+
+/* Blog */
+#blog{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 50px;
+    margin: 40px 0;
+}
+#blog h2{
+    margin-bottom: 30px;
+}
+
+.blog-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 20px 0px;
+	flex-wrap: wrap;
+}
+
+.blog-box{
+	width: 350px;
+	border: 1px solid #ececec;
+	margin: 20px;
+}
+
+.blog-text{
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+}
+
+.blog-text span{
+	color: rgb(107, 127, 238);
+	font-size: 0.9rem;
+}
+
+.blog-text .blog-title{
+	font-size: 1.3rem;
+	font-weight: 500;
+	color: #8FE3D9;
+}
+
+.blog-text .blog-title:hover{
+	color: rgb(48, 145, 255);
+	transition: all ease 0.3s;
+}
+
+.blog-text p{
+	columns: #9b9b9b;
+	font-size: 0.9rem;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin: 20px 0px;
+}
+
+.blog-text a{
+	columns: #0f0f0f;
+}
+
+.blog-text a:hover{
+	color: rgb(122, 138, 242);
+	transition: all ease 0.3s;
+}
